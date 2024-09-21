@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.main{
+    width: 100%;
+    height: 100px;
+}
+
+.nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.links ul li{
+    display: inline;
+    margin: 15px;
+}
+
+.links ul li a{
+    font-weight: 300;
+    font-size: 14px;
+    color: gray;
+}
+
+.links ul li a:hover{
+    color: #2E83FB;
+}
+
+.btn button{
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #2E83FB;
+    color: white;
+    border: none;
+}
+
+.second{
+    width: 100%;
+    height: 600px;
+}
+
+.inner{
+    width: 100%;
+    height: 600px;
+    border-bottom: 1px solid gray;
+}
+
+.work{
+    width: 500px;
+    height: 600px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.in{
+    width: 450px;
+    height: 400px;
+}
+
+.in h5{
+    font-weight: 300;
+    margin: 5px 5px;
+}
+
+.in p{
+    margin: 5px 5px;
+}
+
+.in h2{
+    font-size: 60px;
+}
+
+.in button{
+    width: 180px;
+    height: 45px;
+    margin: 10px 0;
+    background-color: #2E83FB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.pic{
+    width: 700px;
+    height: 600px;
+    float: right;
+    display: flex;
+}
+
+.image{
+    width: 700px;
+    height: 500px;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.third{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.on{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a{
+    width: 530px;
+    height: 500px;
+}
+
+
+.a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.b{
+    width: 590px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.pins{
+    width: 550px;
+    height: 500px;
+}
+
+.pins h1{
+    margin: 20px 15px;
+    color: rgb(67, 66, 66);
+}
+
+.pins p{
+    margin: 15px 15px;
+    color: gray;
+    font-weight: 200;
+}
+
+.pins button{
+    margin: 30px 15px;
+    color: white;
+    width: 160px;
+    height: 45px;
+    background-color: #2E83FB;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.pins h4{
+    margin: 20px 20px;
+    color: rgb(67, 66, 66);
+} 
+
+.fourth{
+    width: 100%;
+    height: 700px;
+}
+
+.head{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.big{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one{
+    width: 350px;
+    height: 550px;
+}
+
+.point{
+    width: 300px;
+    height: 250px;
+    margin: 10px 10px;
+}
+
+.bg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 7px;
+}
+
+.bg img{
+    width: 25px;
+    height: 25px;
+}
+
+.point h3{
+    margin: 10px 5px;
+    border-bottom: 1px solid gray;
+}
+
+.point p{
+    margin: 15px 7px;
+}
+
+.two{
+    width: 450px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dep{
+    width: 100%;
+    height: 300px;
+}
+
+.put{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.owner{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.omwner{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.metal{
+    width: 380px;
+    height: 200px;
+    border: 1px solid rgb(195, 195, 195);
+    text-align: center;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+.metal:hover{
+    background-color: #2E83FB;
+    color: white;
+}
+
+.metal h2{
+    margin: 20px 0;
+}
+
+
+.doctors{
+    width: 100%;
+    height: 500px;
+}
+
+.doc{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail{
+    width: 300px;
+    height: 420px;
+}
+
+.detail:hover{
+    color: #2E83FB;
+}
+
+.detail img{
+    width: 100%;
+}
+
+.detail h3{
+    font-weight: 500;
+    margin: 10px 5px;
+}
+
+.detail p{
+    margin: 10px 5px;
+}
+
+.last{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(226, 241, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.las{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot{
+    width: 240px;
+    height: 270px;
+}
+
+.foot img{
+    margin: 10px 5px;
+}
+
+.foot p{
+    margin: 10px 5px;
+    color: gray;
+}
+
+.foot i{
+    margin: 10px 5px;
+    color: gray;
+    font-size: 18px;
+}
+
+.foot i:hover{
+    color: #2E83FB;
+}
+
+
+.foot h2{
+    margin: 10px 5px;
+    color: rgb(75, 75, 75);
+    font-size: 20px;
+}
+
+.foot ul li{
+    margin: 15px 0px;
+    padding: 0px 0;
+    font-size: 14px;
+}
+
+.foot ul li a{
+    margin: 10px 5px;
+    color: gray;
+    font-weight: 100;
+}
+
+.foot ul li a:hover{
+    color: #2E83FB;
+}
+
+input{
+    width: 80%;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    margin: 10px 5px;
+    padding: 5px;
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: #0D1820;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foo{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foo p{
+    color: gray;
+}
+
+.oppo i{
+    font-size: 18px;
+    margin: 0px 5px;
+    color: white;
+}
+
+.oppo i:hover{
+    color: #2E83FB;
+}
